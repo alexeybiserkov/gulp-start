@@ -1,0 +1,113 @@
+/*
+ * BOOTSTRAP3-EXT
+*/
+
+.v-middle {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+.v-bottom {
+	display: inline-block;
+	vertical-align: bottom;
+	float: none;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.v-middle-sm {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+
+	.v-bottom-sm {
+		display: inline-block;
+		vertical-align: bottom;
+		float: none;
+	}
+
+	.pull-left-sm {
+		float: left;
+	}
+
+	.pull-right-sm {
+		float: right;
+	}
+
+	.col-xs-15,
+	.col-sm-15,
+	.col-md-15,
+	.col-lg-15 {
+    	float: left;
+	}
+
+	.col-sm-15 {
+		width: 20%;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.v-middle-md {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+
+	.v-bottom-md {
+		display: inline-block;
+		vertical-align: bottom;
+		float: none;
+	}
+
+	.pull-left-md {
+		float: left;
+	}
+
+	.pull-right-md {
+		float: right;
+	}
+
+	.col-md-15 {
+		width: 20%;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.v-middle-lg {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+
+	.v-bottom-lg {
+		display: inline-block;
+		vertical-align: bottom;
+		float: none;
+	}
+
+	.pull-left-lg {
+		float: left;
+	}
+
+	.pull-right-lg {
+		float: right;
+	}
+
+	.col-lg-15 {
+		width: 20%;
+	}
+}

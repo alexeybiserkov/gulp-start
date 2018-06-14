@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "authors": [
+    "Alexey Biserkov"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hammerjs": "https://github.com/hammerjs/hammer.js.git#^2.0.8",
+    "modernizer": "^2.8.2",
+    "normalize-css": "normalize.css#^7.0.0",
+    "owl.carousel": "https://github.com/OwlCarousel2/OwlCarousel2.git#^2.2.1",
+    "animate.css": "^3.5.2"
+  }
+}
